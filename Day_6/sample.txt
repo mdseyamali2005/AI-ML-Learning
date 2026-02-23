@@ -1,4 +1,1 @@
-this is my first line
-I am learning python.
-This is new line
-I learn append mode
+234

@@ -25,3 +25,19 @@ f.close()
 #rb and wb are used for reading and writing binary files like images, videos, etc. and rt and wt are used for reading and writing text files. 
 # and we dont need to use rt because text mode is default mode
 ############################ multiple mode use ######################### like r+ for r and w , w+ for w and r , a+ for a and r
+f = open("sample.txt", "r+")
+f.write("234")
+data = f.read()
+print(data)
+f.close()
+#############
+f = open("sample.txt", "a+")
+f.write("234")
+data = f.read()
+f.close()
+#####################
+f = open("sample.txt", "w+")
+f.write("234")
+data = f.read()
+print(data)
+f.close()
