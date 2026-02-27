@@ -1,6 +1,11 @@
 ##q1########
-with open("name.txt", "w") as f:
-    f.write("Seyam\nsufia\nkhatun\nali\nMira\n")
+with open("names.txt", "w") as f:
+    for i in range(5):
+        name = input("Enter a name: ")
+        f.write(name + "\n")
+with open("names.txt", "r") as f:
+    print("Names in file:")
+    print(f.read())
 #####q2########
 with open("log.txt","a") as f:
     f.write("\nProgram run successfully")
@@ -45,4 +50,10 @@ if inp == "yes":
         json.dump(data,f, indent = 4, sort_keys = True)
 else:
     print("No data entered.")
-    
+#############q5####################
+try:
+    with open("dea.txt", "r") as f:
+        hga = f.read()
+        print(f"file is exist{hga}")
+except:
+    print(f"file dose not extst")
