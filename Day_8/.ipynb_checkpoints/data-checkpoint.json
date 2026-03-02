@@ -1,6 +1,6 @@
 [
-{"name":"Md Seyam Ali" , "rating":"5" , "feedback":"I love it" , "age":"34" },
-{"name":"koli" , "rating":"3" , "feedback":"Wow" , "age":"23" },
-{"name":"suborna" , "rating":"5" , "feedback":"Great" , "age":"43" },
-{"name":"bonu" , "rating":"1" , "feedback":"good job bro" , "age":"21" }
+{"name":"Md Seyam Ali" , "rating":"5 " , "feedback":"I love it" , "age":"34" },
+{"name":"koli" , "rating":"three" , "feedback":"Wow" , "age":"23" },
+{"name":"suborna" , "rating":"Five" , "feedback":"Great" , "age":"43" },
+{"name":"bonu" , "rating":"1.5" , "feedback":"good job bro" , "age":"21" }
 ]
