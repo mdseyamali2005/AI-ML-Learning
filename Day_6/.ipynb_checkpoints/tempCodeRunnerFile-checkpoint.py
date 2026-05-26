@@ -1,0 +1,5 @@
+f = open("sample.txt", "w+")
+f.write("234")
+data = f.read()
+print(data)
+f.close()
